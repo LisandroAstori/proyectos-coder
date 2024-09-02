@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> CompráTuPc - Ecommerce</title>
+
+    <!-- linkeo bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- linkeo Css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <section><!-- LOGO, NAVBAR, BARRA DE BUSQUEDA -->
+        <nav class="navbar navbar-expand pt-0 pb-3">
+          <div class="container-fluid contenedorHeader">
+            <a class="navbar-brand p-0" href="./index.html">
+              <img src="./img/logo.jpg" width="120" alt="logo de la pagina web"> <!--logo de la pagina-->
+            </a>
+            <button class="botonHamburguesa" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span><!--boton de navegacion-->
+            </button>
+            <div class="links" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mb-3"><!--link de navegacion-->
+                <li>
+                  <a class="nav-link" aria-current="page" href="#">productos</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#">servicios</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#">contacto</a>
+                </li>
+              </ul>
+            </div>
+            <form class="d-flex" role="search"><!--barra de busqueda-->
+              <input class="form-control me-2" type="search" placeholder="Buscar Producto" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">buscar</button>
+            </form>
+          </div>
+        </nav>
+      </section>
+      <section id="carouselExampleDark"class="carousel slide pt-0"><!--CARRUSEL-->
+        <div class="carousel-inner">
+
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./img/img1.jpg" class="w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h3>instalacion de software</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore cumque voluptatum, delectus ab consectetur neque adipisci nihil corrupti autem excepturi.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item gradient" data-bs-interval="2000">
+            <img src="./img/img2.jpg" class="w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h3>mantenimiento al dia</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore cumque voluptatum, delectus ab consectetur neque adipisci nihil corrupti autem excepturi.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item gradient">
+            <img src="./img/img3.jpg" class="w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h3>dispositivos nuevos</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore cumque voluptatum, delectus ab consectetur neque adipisci nihil corrupti autem excepturi.</p>
+            </div>
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </section>
+    </header>
+
+    <main>
+      <div class="container">
+          <h1><span>¿Buscas una notebook?</span><span class="renglon pt-2 fs-4">esto te servirá</span></h1>
+          <section class="main">
+            <section class="catalogoCard">
+              <div class="card">
+                <img src="./img/compu1.jpg" alt="computadora 1">
+                <div class="card-body border-top border-2 border-black">
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, natus! Soluta eveniet nisi, molestias et enim laborum libero! Quasi, explicabo?</p>
+                  <a href="#" class="btn btn-primary">Más Info</a>
+                </div>
+              </div>
+            </section>
+            
+            <section class="catalogoCard">
+              <div class="card mb-3">
+                <img src="./img/compu2.jpg" class="card-img-top" alt="computadora 2">
+                <div class="card-body border-top border-2 border-black">
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, nesciunt nobis! Dicta est repellendus quod consectetur perferendis incidunt nostrum quidem.</p>
+                  <a href="#" class="btn btn-primary">Más Info</a>
+                </div>
+              </div>
+            </section>
+          </section>
+          <div class="d-flex justify-content-center">
+            <a href="./pages/productos.html" class="verMas btn">ver más</a>
+          </div>
+      </div>
+    </main>
+
+    <section class="bg-dark">
+      <div class="container-fluid">
+        <h2>encontranos en...</h2>
+        <section class="ubicacion">
+          <iframe class="mb-4 rounded-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10041.82153356318!2d-58.259312950841085!3d-34.72410773533717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32e38e45f5777%3A0x6a86dac21334524f!2sQuilmes%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1725082931037!5m2!1ses-419!2sar" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+      </div>
+    </section>
+
+    <footer class="h-3 d-flex bg-white justify-content-center align-items-center">
+      <p class="m-0 text-black fw-bolder">todos los derechos reservados ©</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
