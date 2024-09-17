@@ -1,0 +1,17 @@
+.card{
+    border: rgb(0, 0, 0) solid .25rem;
+    margin: 2rem 0;
+
+    .card-body{
+        border-bottom-right-radius: var(--bs-card-border-radius);
+        border-bottom-left-radius: var(--bs-card-border-radius);
+
+        .verMas{
+            background-color: #ffff;
+            color: black;
+            font-weight: bolder;
+            border: 3px #000000 solid;
+            margin-bottom: 2rem;
+        }
+    }
+}

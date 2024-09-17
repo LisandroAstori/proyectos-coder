@@ -1,0 +1,26 @@
+.contenedorHeader{
+    flex-direction: column;
+
+    .navbar-brand{
+        order: 1;
+    }
+
+    .links{
+        order: 3;
+
+        .navbar-nav{
+            --bs-nav-link-padding-y: 0;
+            flex-direction: row;
+            gap: 2rem;
+
+            .nav-link{
+                @include titulos($color:#ffff, $tamanio:1.05rem, $padin:0 .5rem, $grosor:bolder);
+            }
+        }
+    }
+
+    form{
+        order: 2;
+        padding-bottom: 1.4rem;
+    }    
+}

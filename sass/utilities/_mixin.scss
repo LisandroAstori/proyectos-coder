@@ -1,0 +1,21 @@
+@mixin titulos($color:white, $tamanio:1rem, $padin:1rem, $grosor:bolder){
+    color: $color;
+    font-size: $tamanio;
+    margin: 0;
+    padding: $padin;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: $grosor;
+}
+
+@mixin flex($direccion:row, $justify:space-around){
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $justify;
+}
+
+@mixin grid($col:1fr, $row:auto){
+    display: grid;
+    grid-template-columns: $col;
+    grid-template-rows: $row;
+}

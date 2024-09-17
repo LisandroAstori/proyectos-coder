@@ -1,0 +1,91 @@
+@media only screen and (min-width:1024px){
+    // HEADER
+    .contenedorHeader{
+        .navbar-brand{
+            padding-left: 15rem !important;
+        }
+
+        form{
+            padding-right: 15rem;
+        }
+
+        .links{
+             a{
+                font-size: 1.3rem !important;
+
+                &:hover{
+                    transform: scale(1.3);
+                    color: rgb(255, 255, 255);
+                    transition: 1.1s;
+                }
+            }
+        }
+    }
+    
+    // CARRUSEL
+    .carousel-inner{
+        height: 640px;
+
+        .carousel-caption{
+            height: 80%;
+
+            p{
+                font-size: 1.5rem;
+            }
+
+            h2 {
+                font-size: 4.7rem;
+                font-weight: bolder;
+            }
+        }
+    }
+
+    // MAIN
+    h1{
+        font-size: 5rem;
+
+        .renglon{
+            font-size: 2rem !important;
+        }
+    }
+    .card-text{
+        font-size: 1.3rem;
+    }
+    .btn{
+        font-size: 1.3rem;
+
+        &:hover{
+            transform: scale(1.1);
+            transition: 1.3s;
+            background-color: #000000;
+            color: white;
+        }
+    }
+
+    // UBICACION
+    h3{
+        font-size: 4rem;
+    }
+    iframe{
+        width: 80%;
+        height: 60vh;
+    }
+
+    // CONTACTO
+    .icono{
+        font-size: 3rem;
+        transition: transform 0.3s ease;
+        display: inline-block;
+
+        &:hover{
+            transform: scale(1.4);
+        }
+    }
+    .bi-instagram{
+        color: rgb(253, 92, 60);
+    }
+    // FOOTER
+    footer p{
+        font-size: 1.3rem;
+    }
+}

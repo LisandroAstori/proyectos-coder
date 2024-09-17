@@ -1,0 +1,39 @@
+@import "./utilities/mixin";
+@import "./utilities/extends";
+@import "./layouts/header";
+@import "./layouts/carrousel";
+@import "./layouts/main";
+@import "./layouts/ubicacion";
+@import "./layouts/contacto";
+@import "./layouts/footer";
+
+@import "./responsive/tablet";
+@import "./responsive/laptop";
+
+@import "./pages/servicios";
+@import "./pages/compu1";
+@import "./pages/contacto";
+
+body{
+    font-family: "Gupter", system-ui;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: rgb(0, 0, 70);
+}
+
+a{ text-decoration: none;}
+
+h1{
+    @include titulos($color:rgba(254, 254, 254, 0.874), $tamanio:1.9rem, $padin:3rem 0 0, $grosor:bold);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2{ @include titulos($color:rgba(255, 255, 255, 1), $tamanio:1.4rem, $padin:3rem 0 1rem, $grosor:bold); }
+
+h3{ @include titulos($color:rgba(255, 255, 255, 1), $tamanio:1.7rem, $padin:3rem 0 1rem, $grosor:bold); }
+
+h4{ @include titulos($color:rgba(0, 0, 0, 1), $tamanio:1.7rem, $padin:0 , $grosor:bolder); }
+
