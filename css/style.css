@@ -142,6 +142,9 @@ footer {
   main .container .main .catalogoCard {
     width: 40%;
   }
+  main .container .main .catalogoCard .card-text {
+    height: 6.4rem;
+  }
   h3 {
     font-size: 2.3rem !important;
   }
